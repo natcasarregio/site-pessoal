@@ -7,24 +7,73 @@
     <title>Document</title>
 <style>
     body{
-        background-color: rgb(237, 193, 251) ;
+        background-color: rgb(244, 233, 248) ;
     }
     .navbar {
-        height: 100px;
+        height: 120px;
         margin: -10px;
-        margin-top: -20px;
-        background-color: rgb(226, 137, 249);
+        margin-top: -40px;
     }
-    h1{color: #040000;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
+    .elementos{display: flex;
+        justify-content:space-around;
+        list-style: none;
+        margin-top: 40px;
+        align-items: center;
+        color: rgb(34, 24, 46);
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium';
+        background-color:rgba(245, 204, 255, 0.767) ;
+        
+     }
+     .logo{ 
+        align-items: start;
+     }
+    h3{color: #3c03f6;
+    text-align: left;
+    font-family: Verdana;
+    margin-left: 70px;
+    margin-top: -50px;
     }
+    h1{
+        text-align: center;
+        border-top: 20px;
+    }
+    .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #b5b3f379;
+  height: auto;
+    }
+    .flex-container > div {
+  background-color: #aca9ff00;
+  width: 100px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 65px;
+  justify-content: space-around;
+}
 </style>
 </head>
 <body>
 <div class="navbar">
-     <img src="https://th.bing.com/th/id/R.6408034045aaeca6557c843cae313c08?rik=zw%2bLAsqTGho0CA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2018%2f05%2fBooks-PNG-File.png&ehk=r4BsUl5qSxcDQ2OiAXqL0Ts74ezQeEt%2fDaUjnTGLVuI%3d&risl=&pid=ImgRaw&r=0" alt="" height="100">
+    <ul class="elementos">
+     <li id="logo"><img src="https://th.bing.com/th/id/R.6408034045aaeca6557c843cae313c08?rik=zw%2bLAsqTGho0CA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2018%2f05%2fBooks-PNG-File.png&ehk=r4BsUl5qSxcDQ2OiAXqL0Ts74ezQeEt%2fDaUjnTGLVuI%3d&risl=&pid=ImgRaw&r=0" alt="" height="100"></li>
+     <li><h2>Livros do ano</h2></li>
+     <li><h2>Favoritos</h2></li>
+     <li><h2>Avaliações e resenhas</h2></li>
+     <li><h2>Quem sou eu?</h2></li>
+    </ul>
     </div>
-
+    <p></p>
+<h3>Nat & Livros</h3>
+<h1>Livros do ano de 2023</h1>
+<div class="flex-container">
+    <div><img src="https://th.bing.com/th/id/R.bc3934ec5625129bf74a65b3c0c1f98f?rik=l3fp2%2bMDqgAO%2bg&pid=ImgRaw&r=0" alt="" height="179px"></div>
+    <div><img src="https://th.bing.com/th/id/R.cfb2eea256aa0833f1343520ad7aa513?rik=ElCEBFJSGTVeUw&riu=http%3a%2f%2fwoblink.com%2fstorable%2fpub_photos%2f995367-november-9.jpg&ehk=7qXo1URhfXpCFayBpxwP6zkcXLMjoLnai3%2f7Ujhk2gc%3d&risl=&pid=ImgRaw&r=0" alt=""height="179"></div>
+    <div><img src="https://th.bing.com/th/id/OIP.gWY7ajIlYDkKyh53B91H8QHaKq?pid=ImgDet&rs=1" alt="" height="179"></div>  
+    <div><img src="https://imagens.lelivros.org/2022/08/baixar-livro-garotas-imperfeitas-raissa-selvaticci-em-pdf-epub-mobi-ou-ler-online-370x479.jpg" alt=""height=179></div>
+   
+  </div>
 </body>
 </html>
