@@ -10,14 +10,17 @@
         body {
             background-color: rgb(255, 255, 255);
         }
+
         .navbar {
             height: 100px;
             margin: -10px;
             margin-top: -40px;
         }
+
         .elementos {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
             list-style: none;
             margin-top: 40px;
             align-items: center;
@@ -26,9 +29,11 @@
             font-family: "Franklin Gothic Medium";
             background-color: rgba(245, 204, 255, 0.767);
         }
+
         .logo {
             align-items: start;
         }
+
         h3 {
             color: #000000;
             text-align: left;
@@ -36,16 +41,20 @@
             margin-top: -40px;
             font-size: small;
         }
+
         h1 {
             text-align: center;
+            flex-wrap: wrap;
             border-top: 20px;
         }
+
         .flex-container {
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             background-color: #ac0fd358;
             height: 259px;
         }
+
         .flex-container>div {
             background-color: #f0a6f504;
             width: 100px;
@@ -55,6 +64,7 @@
             line-height: 65px;
             justify-content: space-around;
         }
+
         .titulo {
             height: 40px;
             background-color: rgba(179, 0, 255, 0.616);
@@ -64,16 +74,36 @@
             margin-top: 50px;
             border-radius: 10px;
         }
-            li a {
-  display: block;
-  color: rgb(21, 0, 27);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover:not(.active) {
-  background-color: #e8b7ff;
-}
+
+        li a {
+            display: block;
+            color: rgb(21, 0, 27);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #e8b7ff;
+        }
+
+        .bar {
+            height:10px;
+            background-color: #ddffb7;
+            flex-direction: row;
+        }
+
+        .intens {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin-top: 00px;
+            align-items: center;
+            color: rgb(255, 251, 9);
+            font-weight: 30;
+            font-family: "Franklin Gothic Medium";
+            background-color: rgba(245, 204, 255, 0.767);
+        }
     </style>
 </head>
 
@@ -82,19 +112,19 @@ li a:hover:not(.active) {
         <ul class="elementos">
             <li id="logo">
                 <img src="https://th.bing.com/th/id/R.6408034045aaeca6557c843cae313c08?rik=zw%2bLAsqTGho0CA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2018%2f05%2fBooks-PNG-File.png&ehk=r4BsUl5qSxcDQ2OiAXqL0Ts74ezQeEt%2fDaUjnTGLVuI%3d&risl=&pid=ImgRaw&r=0"
-                    alt="" height="100"/>
+                    alt="" height="100" />
             </li>
             <li>
-                <h2><a href="file:///C:/dev/site-pessoal/index.html">Lidos do ano</a></h2>
+                <h2><a href="/index.html">Lidos do ano</a></h2>
             </li>
             <li>
                 <h2><a href="/livros-favoritos.html">Favoritos</a></h2>
             </li>
             <li>
-                <h2><a href=""> Avaliação e resenhas</a></h2>
+                <h2><a href="/avaliaoes-e-resenhas.html"> Avaliação e resenhas</a></h2>
             </li>
             <li>
-                <h2><a href="/sobre-mim.html">Quem sou eu?</a></h2>
+                <h2><a href="/sobre-mim.html">Sobre mim</a></h2>
             </li>
         </ul>
     </div>
@@ -117,6 +147,16 @@ li a:hover:not(.active) {
             <img src="https://imagens.lelivros.org/2022/08/baixar-livro-garotas-imperfeitas-raissa-selvaticci-em-pdf-epub-mobi-ou-ler-online-370x479.jpg"
                 alt="" height="200px" />
         </div>
+        
+        <div class="bar">
+            <ul class="itens">
+                <li>⭐⭐⭐⭐</li>
+                <li>⭐⭐⭐⭐</li>
+                <li>⭐⭐⭐⭐/5</li>
+                <li>?????</li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 
