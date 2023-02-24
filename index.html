@@ -8,27 +8,32 @@
     <title>Document</title>
     <style>
         body {
-            background-color: rgb(255, 255, 255);
+            background-color: #f1c86952;
         }
+
         .navbar {
             height: 100px;
             margin: -10px;
             margin-top: -40px;
         }
+
         .elementos {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
             list-style: none;
             margin-top: 40px;
             align-items: center;
             color: rgb(34, 24, 46);
             font-weight: 200;
             font-family: "Franklin Gothic Medium";
-            background-color: rgba(245, 204, 255, 0.767);
+            background-color: #f15400ae;
         }
+
         .logo {
             align-items: start;
         }
+
         h3 {
             color: #000000;
             text-align: left;
@@ -36,48 +41,85 @@
             margin-top: -40px;
             font-size: small;
         }
+
         h1 {
             text-align: center;
+            flex-wrap: wrap;
             border-top: 20px;
         }
+
         .flex-container {
             display: flex;
-            flex-wrap: nowrap;
-            background-color: #ac0fd358;
-            height: auto;
+            flex-wrap: wrap;
+            background-color: #ff0c718f;
+            height: 269px;
         }
+
         .flex-container>div {
             background-color: #f0a6f504;
             width: 100px;
-            margin: auto;
+            margin: 100px;
             margin-top: 30px;
-            text-align: center;
             line-height: 65px;
             justify-content: space-around;
         }
+
         .titulo {
             height: 40px;
-            background-color: rgba(179, 0, 255, 0.616);
+            background-color: #ff2655bb;
             text-align: center;
             margin-left: 300px;
             margin-right: 300px;
             margin-top: 50px;
             border-radius: 10px;
         }
-            li a {
-  display: block;
-  color: rgb(21, 0, 27);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover:not(.active) {
-  background-color: #e8b7ff;
-}
 
-.active {
-  background-color: #a89fff;
-}
+        li a {
+            display: block;
+            color: rgb(21, 0, 27);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #fe9c33ce;
+        }
+
+        h4 {
+            font-size: small;
+            font-family: Geneva;
+            margin-top: 80px;
+        }
+
+        h5 {
+            font-size: 100%;
+            margin: -90px;
+            margin-top: 30px;
+            color: #000000;
+            background-color: #b8810085;
+            border-radius: 10px;
+            line-height: 25px;
+            height: auto;
+            text-align: center;
+        }
+
+        .linha2 {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #ff0c718f;
+            height: 269px;
+            margin-top: 250px;
+        }
+
+        .linha2>div {
+            background-color: #f0a6f504;
+            width: 100px;
+            margin: 100px;
+            margin-top: 30px;
+            line-height: 65px;
+            justify-content: space-around;
+        }
     </style>
 </head>
 
@@ -86,41 +128,63 @@ li a:hover:not(.active) {
         <ul class="elementos">
             <li id="logo">
                 <img src="https://th.bing.com/th/id/R.6408034045aaeca6557c843cae313c08?rik=zw%2bLAsqTGho0CA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2018%2f05%2fBooks-PNG-File.png&ehk=r4BsUl5qSxcDQ2OiAXqL0Ts74ezQeEt%2fDaUjnTGLVuI%3d&risl=&pid=ImgRaw&r=0"
-                    alt="" height="100"/>
+                    alt="pilha de de livros" height="100" />
             </li>
             <li>
-                <h2><a href="file:///C:/dev/site-pessoal/index.html">Lidos do ano</a></h2>
+                <h2><a href="/index.html">Lidos do ano</a></h2>
             </li>
             <li>
-                <h2><a href="">Favoritos</a></h2>
+                <h2><a href="/livros-favoritos.html">Favoritos</a></h2>
             </li>
             <li>
-                <h2><a href=""> Avaliação e resenhas</a></h2>
+                <h2><a href="/avaliaoes-e-resenhas.html"> Avaliação e resenhas</a></h2>
             </li>
             <li>
-                <h2><a href="">Quem sou eu?</a></h2>
+                <h2><a href="/sobre-mim.html">Sobre mim</a></h2>
             </li>
         </ul>
     </div>
     <p></p>
     <h3>Nat & Livros</h3>
     <h1 class="titulo">Livros do ano de 2023</h1>
+    <h4>*Ao clicar na avaliação sera direcionado a pagina de avaliações do Skoob</h4>
     <div class="flex-container">
         <div>
             <img src="https://th.bing.com/th/id/R.bc3934ec5625129bf74a65b3c0c1f98f?rik=l3fp2%2bMDqgAO%2bg&pid=ImgRaw&r=0"
-                alt="" height="200px" />
+                alt="capa de um livo chamado A arte de inventar o amor" height="200px" />
+            <a href="https://www.skoob.com.br/a-arte-de-inventar-o-amor-572158ed572860.html">⭐⭐⭐⭐</a>
+            <h5>Livro fofo e engraçado, a garota é muito criativa para inventar os namorados e tem poder de
+                manifestação.</h5>
         </div>
         <div>
             <img src="https://th.bing.com/th/id/R.cfb2eea256aa0833f1343520ad7aa513?rik=ElCEBFJSGTVeUw&riu=http%3a%2f%2fwoblink.com%2fstorable%2fpub_photos%2f995367-november-9.jpg&ehk=7qXo1URhfXpCFayBpxwP6zkcXLMjoLnai3%2f7Ujhk2gc%3d&risl=&pid=ImgRaw&r=0"
-                alt="" height="200px" />
+                alt="Capa de livro chamado novembro 9" height="200px" />
+            <a href="https://www.skoob.com.br/novembro-9-608801ed609047.html">⭐⭐⭐⭐</a>
+            <h5>Você vai ficando cada vez mais curiosa com o passar das paginas, principalmente por eles só se verem 1
+                vez no ano </h5>
         </div>
         <div>
-            <img src="https://th.bing.com/th/id/OIP.gWY7ajIlYDkKyh53B91H8QHaKq?pid=ImgDet&rs=1" alt="" height="200px" />
+            <img src="https://th.bing.com/th/id/OIP.gWY7ajIlYDkKyh53B91H8QHaKq?pid=ImgDet&rs=1"
+                alt="Capa de livro chamado amor não é obvio" height="200px" />
+            <a href="https://www.skoob.com.br/o-amor-nao-e-obvio-999711ed1001406.html">⭐⭐⭐⭐/5</a>
+            <h5>Meu favorito, me indentifico muito com a Iris. Ele me fez pensar em muitos assuntos. Livro muito fofo
+                mas faz pensar e descobrir muitas coisa. Sou apaixonada na Edra, quero uma na minha vida.</h5>
         </div>
         <div>
             <img src="https://imagens.lelivros.org/2022/08/baixar-livro-garotas-imperfeitas-raissa-selvaticci-em-pdf-epub-mobi-ou-ler-online-370x479.jpg"
-                alt="" height="200px" />
+                alt="Capa de livro chamado garitas (im)perfeitas" height="200px" />
+            <a href="https://www.skoob.com.br/garotas-imperfeitas-12192233ed12173173.html">?????</a>
+            <h5>Em andamento a leitura...</h5>
         </div>
+    </div>
+    <div class="linha2">
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.R0MRcDkRL1_lGl8KouTbtQHaJk?pid=ImgDet&rs=1"
+                alt="Capa do livro a Mandíbula de caim" height="200px">
+            <a href="https://www.skoob.com.br/a-mandibula-de-caim-122224405ed122229950.html">?????</a>
+            <h5>Proxima leitura</h5>
+        </div>
+
     </div>
 </body>
 
