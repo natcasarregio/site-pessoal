@@ -1,114 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-    <style>
-    
-        body  {
-        background-color:#f1c86952 ;
+<style>
+    body {
+        background-color: #f1c86952;
     }
-        .navbar {
-            height: 100px;
-            margin: -10px;
-            margin-top: -40px;
-        }
 
-        .elementos {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            list-style: none;
-            margin-top: 40px;
-            align-items: center;
-            color: rgb(34, 24, 46);
-            font-weight: 200;
-            font-family: "Franklin Gothic Medium";
-            background-color:#f15400ae;
-        }
+    .navbar {
+        height: 100px;
+        margin: -10px;
+        margin-top: -40px;
+    }
 
-        .logo {
-            align-items: start;
-        }
+    .elementos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 40px;
+        align-items: center;
+        color: rgb(34, 24, 46);
+        font-weight: 200;
+        font-family: "Franklin Gothic Medium";
+        background-color: #f15400ae;
+    }
 
-        h3 {
-            color: #000000;
-            text-align: left;
-            font-family: Verdana;
-            margin-top: -40px;
-            font-size: small;
-        }
+    .logo {
+        align-items: start;
+    }
 
-        h1 {
-            text-align: center;
-            flex-wrap: wrap;
-            border-top: 20px;
-        }
+    h3 {
+        color: #000000;
+        text-align: left;
+        font-family: Verdana;
+        margin-top: -40px;
+        font-size: small;
+    }
 
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: #ff0c718f;
-            height: 269px;
-        }
+    h1 {
+        text-align: center;
+        flex-wrap: wrap;
+        border-top: 20px;
+    }
 
-        .flex-container>div {
-            background-color: #f0a6f504;
-            width: 100px;
-            margin: 100px;
-            margin-top: 30px;
-            line-height: 65px;
-            justify-content: space-around;
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ff0c718f;
+        height: 269px;
+    }
 
-        }
+    .flex-container>div {
+        background-color: #f0a6f504;
+        width: 100px;
+        margin: 100px;
+        margin-top: 30px;
+        line-height: 65px;
+        justify-content: space-around;
 
-        .titulo {
-            height: 40px;
-            background-color: #ff2655bb;
-            text-align: center;
-            margin-left: 300px;
-            margin-right: 300px;
-            margin-top: 50px;
-            border-radius: 10px;
-        }
+    }
 
-        li a {
-            display: block;
-            color: rgb(21, 0, 27);
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+    .titulo {
+        height: 40px;
+        background-color: #ff2655bb;
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
 
-        li a:hover:not(.active) {
-            background-color: #fe9c33ce;
-        }
-        h4{
-            font-size: small;
-            font-family: Geneva;
-            margin-top: 80px;
-        }
-        h5{
-            font-size: 100%;
-            margin: -90px;
-            margin-top: 30px;
-            color: #000000;
-            background-color: #b8810085;
-            border-radius: 10px;
-            line-height: 25px;
-            height: auto;
-        }
-    </style>
-    
+    li a {
+        display: block;
+        color: rgb(21, 0, 27);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #fe9c33ce;
+    }
+
+    h4 {
+        font-size: small;
+        font-family: Geneva;
+        margin-top: 80px;
+    }
+
+    h5 {
+        font-size: 100%;
+        margin: -90px;
+        margin-top: 30px;
+        color: #000000;
+        background-color: #b8810085;
+        border-radius: 10px;
+        line-height: 25px;
+        height: auto;
+        text-align: center;
+        font-family: 'Courier New';
+    }
+    h5>b{
+        color: rgb(255, 0, 0);
+    }
+</style>
+
 <body>
     <div class="navbar">
         <ul class="elementos">
             <li id="logo">
                 <img src="https://th.bing.com/th/id/R.6408034045aaeca6557c843cae313c08?rik=zw%2bLAsqTGho0CA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2018%2f05%2fBooks-PNG-File.png&ehk=r4BsUl5qSxcDQ2OiAXqL0Ts74ezQeEt%2fDaUjnTGLVuI%3d&risl=&pid=ImgRaw&r=0"
-                    alt="" height="100"/>
+                    alt="" height="100" />
             </li>
             <li>
                 <h2><a href="/index.html">Lidos do ano</a></h2>
@@ -127,6 +135,26 @@
     <p></p>
     <h3>Nat & Livros</h3>
     <h1 class="titulo">Favoritos</h1>
+    <div class="flex-container">
+        <div><img
+                src="https://img.wook.pt/images/a-vida-invisivel-de-addie-larue-v-e-schwab/MXwyNDc4MDUxM3wyMDk2MjEyN3wxNjIxNDY1MjAwMDAw/500x"
+                alt="" height="200px"><a href="https://www.skoob.com.br/livro/11954882ED11909230">⭐⭐⭐⭐⭐</a>
+            <h5>Esse livro me prendeu muito e foi uma mistura de sentimentos. Eu amei o livro e toda a história da Addie. Fiquei muito mal no começo por ninguém lembrar dela ou dela não poder deixar a marca dela no mundo nem em ninguém essa deve ser uma sensação péssima nunca que aguentaria 300 anos assim.<b>RECOMENDO MUITO</b></h5></div>
+        <div><img src="https://th.bing.com/th/id/OIP.C4bHhFUPszz_VgV7yBByagHaKp?pid=ImgDet&rs=1" alt=""
+                height="200px"><a href="https://www.skoob.com.br/livro/866308ED967690">⭐⭐⭐⭐⭐</a>
+            <h5>Livro que te deixa muito cuirosa de saber a história da Evelyn e tudo que ela passou, essa mulher não teve uma vida fácil meu Deus.
+                Cada marido teve a sua importância na história mas é óbvio que tenho meus favoritos.</h5></div>
+        <div><img
+                src="https://th.bing.com/th/id/OIP.cSflBE2AM9HZmO51s5aXngAAAA?pid=ImgDet&rs=1https://th.bing.com/th/id/OIP.cSflBE2AM9HZmO51s5aXngAAAA?pid=ImgDet&rs=1"
+                alt="" height="200px"><a href="https://www.skoob.com.br/livro/861536ED866310">⭐⭐⭐⭐⭐</a>
+                <h5>Cara logo de cara já gostei muito pelo fato de ser em entrevista e não narrado ser cada um contando da sua visão isso já achei inovador e me prendeu muito. A história é boa, te prende tem as músicas no final, e vc quer saber oq vai acontecer com os personagens, como foi a criação do aurora e os shows amei esse livro.</h5>
+            </div>
+        <div><img src="https://th.bing.com/th/id/OIP.Kgi6VU1bhJyumE3S4zTEVwHaKp?pid=ImgDet&rs=1" alt=""
+                height="200px"><a href="https://www.skoob.com.br/livro/893535ED899555">⭐⭐⭐⭐⭐</a>
+            <h5>O final dele me chocou mas ele é muito bom. durente o livro você tenta imaginar oque aconteceu mas não tem certeza de nada. Ele é muito bom quero ler mais livros assim <b>RECOMENDO MUITO</b> </h5>
+            </div>
+        
+    </div>
 </body>
 
 </html>
